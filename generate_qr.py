@@ -2,8 +2,8 @@ import qrcode
 
 
 #Your IP address and port
-url = "https://gulshankr.pythonanywhere.com"
-url ="http://127.0.0.1:5000"
+url = "https://student-result-checker-1.onrender.com/"
+
 
 
 #Generate QR Code

@@ -10,7 +10,13 @@ students = {
     "1003": {"name": "Harish",  "marks": {"Python": 40, "HTML": 35, "CSS": 50, "JavaScript": 45, "Database": 90}},
     "1004": {"name": "Sala",    "marks": {"Python": 85, "HTML": 90, "CSS": 78, "JavaScript": 98, "Database": 80}},
     "1005": {"name": "Abhi",    "marks": {"Python": 89, "HTML": 55, "CSS": 52, "JavaScript": 98, "Database": 90}},
-    "1006": {"name": "Rohith",  "marks": {"Physics":78, "Chemistry":76, "Bio": 87, "Micro":88, "Zool": 89}}
+    "1006": {"name": "Rohith",  "marks": {"Physics":78, "Chemistry":76, "Bio": 87, "Micro":88, "Zool": 89}},
+    "1007": {"name": "Pritam", "marks": {"Python": 85, "HTML": 90, "CSS": 92, "JavaScript": 98, "Database": 100}},
+    "1008": {"name": "Shivam",  "marks": {"Python": 55, "HTML": 60, "CSS": 58, "JavaScript": 70, "Database": 65}},
+    "1009": {"name": "Laa",  "marks": {"Python": 40, "HTML": 35, "CSS": 50, "JavaScript": 45, "Database": 90}},
+    "1010": {"name": "Banu",    "marks": {"Python": 85, "HTML": 90, "CSS": 78, "JavaScript": 98, "Database": 80}},
+    "1011": {"name": "Chandru",    "marks": {"Python": 89, "HTML": 55, "CSS": 52, "JavaScript": 98, "Database": 90}},
+    "1012": {"name": "Charan",  "marks": {"Physics":78, "Chemistry":76, "Bio": 87, "Micro":88, "Zool": 89}}
 }
 
 #Part 3 — Adding Grade Logic
