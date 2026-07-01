@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+ 
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>🎓 EduTrack Student Result Checker</h1>
+            <p class="subtitle">Full Stack Python Internship Project</p>
+        </div>
+
+        <!-- Form -->
+        <div class="form-container">
+            <h2>Check Your Result</h2>
+            <p>Enter your Roll Number below to view your Result Card</p>
+
+            <form action="/result" method="POST">
+                <input type="text" name="roll" 
+                       placeholder="🔢 Enter Roll Number (e.g. 1001)" 
+                       required>
+                <button type="submit">🔍 Check Result</button>
+            </form>
+
+            {% if error %}
+                <p class="error">⚠️ {{ error }}</p>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</body>
+</html>

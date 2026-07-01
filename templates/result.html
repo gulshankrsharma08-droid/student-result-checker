@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Card</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>🎓 EduTrack Student Result Card</h1>
+            <p class="subtitle">Full Stack Python Internship project </p>
+        </div>
+
+        <!-- Student Info -->
+        <div class="student-info">
+            <div class="info-box">
+                <span class="label">👤 Student Name</span>
+                <span class="value">{{ student["name"] }}</span>
+            </div>
+            <div class="info-box">
+                <span class="label">🔢 Roll Number</span>
+                <span class="value">{{ roll }}</span>
+            </div>
+        </div>
+
+        <!-- Marks Table -->
+        <table>
+            <tr>
+                <th>📚 Subject</th>
+                <th>✏️ Marks</th>
+                <th>📊 Out of</th>
+            </tr>
+            {% for subject, mark in marks.items() %}
+            <tr>
+                <td>{{ subject }}</td>
+                <td><strong>{{ mark }}</strong></td>
+                <td>100</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <!-- Summary -->
+        <div class="summary">
+            <div class="summary-box">
+                <span class="summary-label">Total Marks</span>
+                <span class="summary-value">{{ total }} / 500</span>
+            </div>
+            <div class="summary-box">
+                <span class="summary-label">Percentage</span>
+                <span class="summary-value">{{ percentage }}%</span>
+            </div>
+            <div class="summary-box">
+                <span class="summary-label">Grade</span>
+                <span class="summary-value">{{ grade }}</span>
+            </div>
+            <div class="summary-box">
+                <span class="summary-label">Status</span>
+                <span class="summary-value {{ 'pass' if passed else 'fail' }}">
+                    {{ "PASS ✅" if passed else "FAIL ❌" }}
+                </span>
+            </div>
+        </div>
+
+        <!-- Message -->
+        {% if passed %}
+            <p class="congrats">🎉 Congratulations! Keep up the great work!</p>
+        {% else %}
+            <p class="fail-msg">😢 Don't give up! Work harder next time!</p>
+        {% endif %}
+
+        <a href="/" class="back-btn">⬅ Check Another Result</a>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+Internship project Letters
+
+I am very proud to share my the best opinion where I have learn during my Internship from Apptechno careers software development company, 
+My name is Gulshan Kumar, Reg.No: U18HV23S0046, and Combination is BSc Computer Science and Electronics. 
+
+I have build my project with the help of some skills. Which I have learn in period of my internship. My Project name is EduTec Student Result Checker. I took my Full Stack Python for my internship. In this internship I have learned about the core of python, HTML, and CSS to build my website, for solving the real world problem which is very important me to learn. I have works hends on project to implement into the project. after the internship I have used the Main Frame work Flask python for connection the HTTPS and HTML for Structure , CSS for style, colour and styles, I have also used to store data in a database SQLite and also I have generated my projectqr code for easily any one can scan and they can see their results which is so excited me thank  you your Scencerily Gulshan Kumar
+
+
+
+
+
+tell about your proj
+what are the tools you have used
+what are the real problem to solve 
+how you can expend your project and what are the frame and library are used in your project and why?

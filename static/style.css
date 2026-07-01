@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #065A82, #02C39A);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    width: 550px;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #065A82, #1C7293);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #A8D8EA;
+    letter-spacing: 1px;
+}
+
+/* Student Info */
+.student-info {
+    display: flex;
+    justify-content: space-around;
+    background: #E8F4F8;
+    padding: 16px;
+    border-bottom: 2px solid #02C39A;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: 12px;
+    color: #64748B;
+    margin-bottom: 4px;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #065A82;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #065A82;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid #E2E8F0;
+    font-size: 15px;
+    color: #1A1A2E;
+}
+
+tr:nth-child(even) {
+    background: #F0F8FF;
+}
+
+tr:hover {
+    background: #E8F4F8;
+}
+
+/* Summary */
+.summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #F8FAFC;
+    border-top: 2px solid #E2E8F0;
+    border-bottom: 2px solid #E2E8F0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.summary-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    min-width: 110px;
+}
+
+.summary-label {
+    font-size: 11px;
+    color: #64748B;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.summary-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #065A82;
+}
+
+/* Pass/Fail */
+.pass {
+    color: #02C39A;
+}
+
+.fail {
+    color: #EF4444;
+}
+
+/* Messages */
+.congrats {
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #02C39A;
+    background: #F0FDF4;
+}
+
+.fail-msg {
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EF4444;
+    background: #FEF2F2;
+}
+
+/* Back Button */
+.back-btn {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: linear-gradient(135deg, #065A82, #02C39A);
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.back-btn:hover {
+    opacity: 0.9;
+}
+
+/* Home page form */
+.form-container {
+    padding: 30px;
+}
+
+.form-container h2 {
+    color: #065A82;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.form-container p {
+    color: #64748B;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 2px solid #E2E8F0;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #065
+}    
