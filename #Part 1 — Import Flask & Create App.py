@@ -10,7 +10,7 @@ students = {
     "1003": {"name": "Harish",  "marks": {"Python": 40, "HTML": 35, "CSS": 50, "JavaScript": 45, "Database": 90}},
     "1004": {"name": "Sala",    "marks": {"Python": 85, "HTML": 90, "CSS": 78, "JavaScript": 98, "Database": 80}},
     "1005": {"name": "Abhi",    "marks": {"Python": 89, "HTML": 55, "CSS": 52, "JavaScript": 98, "Database": 90}},
-    "1006": {"name": "Rohith",  "marks": {"Physics":78, "Chemistry": 76, "Bio": 87, "Micro":88, "Zool": 89}}
+    "1006": {"name": "Rohith",  "marks": {"Physics":78, "Chemistry":76, "Bio": 87, "Micro":88, "Zool": 89}}
 }
 
 #Part 3 — Adding Grade Logic
